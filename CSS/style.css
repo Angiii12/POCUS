@@ -1,7 +1,7 @@
 
 
 :root {
-    --main-color: #fff;
+    --main-color: black;
 }
 
 .bg-home{
@@ -10,6 +10,14 @@
     height: 100vh;
     background-size: cover;
     box-sizing: border-box;
+}
+
+.nav-text{
+    font-family: 'Titan One', cursive;
+    color: var(--main-color);
+}
+div.container-fluid{
+    background-color: #90E5A3;
 }
 /* From uiverse.io by @mrhyddenn */
 .card {
