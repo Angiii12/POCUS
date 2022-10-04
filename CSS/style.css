@@ -4,12 +4,14 @@
     --main-color: black;
 }
 
-.bg-home{
+.home{
     text-align: center;
     padding: 10px;
     height: 100vh;
     background-size: cover;
     box-sizing: border-box;
+    background-image: url("../Img/Fondo.jpg");
+    filter: blur(8px);
 }
 
 .nav-text{
@@ -17,7 +19,7 @@
     color: var(--main-color);
 }
 div.container-fluid{
-    background-color: #90E5A3;
+    background-color: whitesmoke;
 }
 /* From uiverse.io by @mrhyddenn */
 .card {
